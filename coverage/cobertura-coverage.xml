@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage lines-valid="54" lines-covered="47" line-rate="0.8703" branches-valid="9" branches-covered="6" branch-rate="0.6666" timestamp="1638468189242" complexity="0" version="0.1">
+<coverage lines-valid="54" lines-covered="47" line-rate="0.8703" branches-valid="9" branches-covered="6" branch-rate="0.6666" timestamp="1638479680396" complexity="0" version="0.1">
   <sources>
     <source>/home/vagrant/backend-js</source>
   </sources>
@@ -47,14 +47,14 @@
                 <line number="6" hits="1"/>
               </lines>
             </method>
-            <method name="(anonymous_2)" hits="1" signature="()V">
+            <method name="(anonymous_2)" hits="2" signature="()V">
               <lines>
-                <line number="11" hits="1"/>
+                <line number="11" hits="2"/>
               </lines>
             </method>
-            <method name="(anonymous_3)" hits="1" signature="()V">
+            <method name="(anonymous_3)" hits="2" signature="()V">
               <lines>
-                <line number="13" hits="1"/>
+                <line number="13" hits="2"/>
               </lines>
             </method>
             <method name="(anonymous_4)" hits="0" signature="()V">
@@ -93,8 +93,8 @@
             <line number="3" hits="1" branch="false"/>
             <line number="5" hits="1" branch="false"/>
             <line number="7" hits="1" branch="false"/>
-            <line number="12" hits="1" branch="false"/>
-            <line number="14" hits="1" branch="false"/>
+            <line number="12" hits="2" branch="false"/>
+            <line number="14" hits="2" branch="false"/>
             <line number="19" hits="0" branch="false"/>
             <line number="21" hits="0" branch="false"/>
             <line number="26" hits="0" branch="false"/>

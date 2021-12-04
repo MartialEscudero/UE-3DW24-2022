@@ -40,8 +40,8 @@ FNF:10
 FNH:4
 FNDA:1,(anonymous_0)
 FNDA:1,(anonymous_1)
-FNDA:1,(anonymous_2)
-FNDA:1,(anonymous_3)
+FNDA:2,(anonymous_2)
+FNDA:2,(anonymous_3)
 FNDA:0,(anonymous_4)
 FNDA:0,(anonymous_5)
 FNDA:0,(anonymous_6)
@@ -52,8 +52,8 @@ DA:1,1
 DA:3,1
 DA:5,1
 DA:7,1
-DA:12,1
-DA:14,1
+DA:12,2
+DA:14,2
 DA:19,0
 DA:21,0
 DA:26,0

@@ -1,27 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
     <file path="/home/vagrant/backend-js/tests/user.test.js">
-        <testCase name="Test : Get all users responds with json" duration="147"/>
-        <testCase name="Test : cannot get one user responds with json" duration="8">
-            <failure message="Error: expected 404 &quot;Not Found&quot;, got 201 &quot;Created&quot;"><![CDATA[Error: expected 404 "Not Found", got 201 "Created"
-    at Object.<anonymous> (/home/vagrant/backend-js/tests/user.test.js:20:10)
-    at Promise.then.completed (/home/vagrant/backend-js/node_modules/jest-circus/build/utils.js:380:26)
-    at new Promise (<anonymous>)
-    at callAsyncCircusFn (/home/vagrant/backend-js/node_modules/jest-circus/build/utils.js:315:10)
-    at _callCircusTest (/home/vagrant/backend-js/node_modules/jest-circus/build/run.js:218:40)
-    at processTicksAndRejections (internal/process/task_queues.js:95:5)
-    at _runTest (/home/vagrant/backend-js/node_modules/jest-circus/build/run.js:155:3)
-    at _runTestsForDescribeBlock (/home/vagrant/backend-js/node_modules/jest-circus/build/run.js:66:9)
-----
-    at Test.Object.<anonymous>.Test._assertStatus (/home/vagrant/backend-js/node_modules/supertest/lib/test.js:304:12)
-    at /home/vagrant/backend-js/node_modules/supertest/lib/test.js:80:15
-    at Test.Object.<anonymous>.Test._assertFunction (/home/vagrant/backend-js/node_modules/supertest/lib/test.js:338:11)
-    at Test.Object.<anonymous>.Test.assert (/home/vagrant/backend-js/node_modules/supertest/lib/test.js:209:21)
-    at Server.localAssert (/home/vagrant/backend-js/node_modules/supertest/lib/test.js:167:12)
-    at Object.onceWrapper (events.js:519:28)
-    at Server.emit (events.js:400:28)
-    at emitCloseNT (net.js:1677:8)
-    at processTicksAndRejections (internal/process/task_queues.js:81:21)]]></failure>
-        </testCase>
+        <testCase name="Test : Get all users responds with json" duration="177"/>
+        <testCase name="Test : Get user id=9 responds with json" duration="9"/>
+        <testCase name="Test : Cannot get one user responds with json" duration="7"/>
+        <testCase name="Test : Cannot delete user responds with json" duration="7"/>
+        <testCase name="Test : Cannot create user responds with json" duration="2"/>
+        <testCase name="Test : Cannot update user responds with json" duration="4"/>
     </file>
 </testExecutions>
